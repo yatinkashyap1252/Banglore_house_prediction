@@ -82,3 +82,55 @@ The models are evaluated using the R-squared metric, which measures how well the
    ```bash
    git clone https://github.com/yatinkashyap1252/Banglore_house_prediction.git
    cd Banglore_house_prediction
+Install Dependencies: Create a virtual environment and install the necessary libraries.
+
+bash
+Copy
+python3 -m venv venv
+source venv/bin/activate  # For Linux/Mac
+venv\Scripts\activate     # For Windows
+pip install -r requirements.txt
+Run the Notebook: Open and run the Banglore_House_Price_Prediction.ipynb notebook in Jupyter Notebook.
+
+Run the Python Script: Alternatively, you can run the Python script:
+
+bash
+Copy
+python house_price_prediction.py
+Train the Model: The script will load the dataset, clean it, train the machine learning models, and save the best model (RidgeModel.pkl) for future use.
+
+Usage
+Once the model is trained and saved, you can use it for predicting house prices based on new data. Load the model using pickle and input the required features for prediction.
+
+Example:
+
+python
+Copy
+import pickle
+
+# Load the model
+model = pickle.load(open('RidgeModel.pkl', 'rb'))
+
+# Example prediction (Assuming X_new is the input features in the same format as training data)
+predicted_price = model.predict(X_new)
+print(predicted_price)
+Contributing
+Feel free to fork the repository, submit issues, and create pull requests. If you'd like to contribute to this project, follow these steps:
+
+Fork the repository
+
+Create a new branch
+
+Make your changes and commit them
+
+Push to your forked repository
+
+Submit a pull request
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgements
+The dataset was obtained from Kaggle (or any other source if applicable).
+
+The machine learning models were implemented using scikit-learn.
