@@ -30,9 +30,9 @@ This project is focused on predicting house prices in Bangalore based on histori
 - **Matplotlib/Seaborn**: For data visualization.
 - **Jupyter Notebook**: For interactive coding and testing.
 
-![Screenshot of initial screen](Screenshot 2025-03-28 165450.png)
-![Screenshot with predicted_price](Screenshot 2025-03-28 165600.png)
-![Screenshot with wrong_input](Screenshot 2025-03-28 165615.png)
+![Screenshot of initial screen](Screenshot%202025-03-28%20165450.png)
+![Screenshot with predicted_price](Screenshot%202025-03-28%20165600.png)
+![Screenshot with wrong_input](Screenshot%202025-03-28%20165615.png)
 
 ## Data Description
 
